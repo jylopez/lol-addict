@@ -13,6 +13,7 @@ const Errors = {
       if (res.headersSent) {
         return next(err)
       }
+      console.log('>>> Error: ', err)
       res.status(500);
       res.render('errors/500')
     })
