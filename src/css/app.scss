@@ -1,0 +1,8 @@
+// colors
+@import "variables";
+@import "lib/bootstrap_variables";
+
+// libs
+// if we want to shrink the bundle we can just include the parts of bootstrap that we want
+@import "../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+@import "lib/bootswatch";

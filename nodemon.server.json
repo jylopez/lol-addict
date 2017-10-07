@@ -1,0 +1,10 @@
+{
+  "watch": [
+    "server.js",
+    "src/js/controllers/*",
+    "src/js/errors/*",
+    "src/js/helpers/*",
+    "src/js/queries/*",
+    "src/js/server/*"
+  ]
+}
