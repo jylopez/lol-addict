@@ -10,3 +10,8 @@ npm install
 ```
 npm run watch
 ```
+
+## deploy
+```
+git push azure master
+```
